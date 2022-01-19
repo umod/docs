@@ -7,18 +7,18 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before resources for changing a building block grade are checked
-* Return false to prevent player from upgrading a building grade
+* Return false to prevent player from affording upgrade
 
 ## Examples
 
-```csharp title="Allow free grade changes to Top Tier"
-bool CanAffordUpgrade(BasePlayer player, BuildingBlock block, BuildingGrade.Enum grade)
+```csharp title="Allow grade change to Top Tier without using resources"
+object CanAffordUpgrade(BasePlayer player, BuildingBlock block, BuildingGrade.Enum grade)
 {
     if (grade == BuildingGrade.Enum.TopTier)
     {
         return true;
     }
 
-    return false;
+    return null;
 }
 ```
