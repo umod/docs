@@ -11,12 +11,12 @@ hide_table_of_contents: true
 
 ## Examples
 
-```csharp title="Universal, command blocked and logged"
+```csharp title="Block and log command usage"
 object OnServerCommand(string command, string[] args)
 {
     if (command.Equals("quit", StringComparison.OrdinalIgnoreCase))
     {
-        Puts($"Server command blocked: {command} {(args != null ? string.Join(" ", args) : "")}");
+        Puts($"Blocked server command: {command} {(args != null ? string.Join(" ", args) : "")}");
         return false;
     }
 
@@ -24,9 +24,9 @@ object OnServerCommand(string command, string[] args)
 }
 ```
 
-```csharp title="Universal, command logged"
+```csharp title="Allow and log command usage"
 void OnServerCommand(string command, string[] args)
 {
-    Puts($"Server executed command: {command} {(args != null ? string.Join(" ", args) : "")}");
+    Puts($"Executed server command: {command} {(args != null ? string.Join(" ", args) : "")}");
 }
 ```

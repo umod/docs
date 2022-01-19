@@ -6,17 +6,16 @@ hide_table_of_contents: true
 
 ## Usage
 
-* Called before a SERVER message is sent to a player
+* Called before a server message is sent to all connected players
 * Return a non-null value to stop message from being sent
 
 ## Examples
 
-```csharp title="Stop message from being sent and log"
-object OnServerMessage(string message, string playerName, string color, ulong playerId)
+```csharp title="Stop message from being sent"
+object OnServerMessage(string message, string prefix, string color, ulong steamId)
 {
     if (message.Contains("gave"))
     {
-        Puts($"Message to {playerName} ({playerId}) cancelled");
         returm false;
     }
 
@@ -25,8 +24,8 @@ object OnServerMessage(string message, string playerName, string color, ulong pl
 ```
 
 ```csharp title="Allow message to be sent, but log"
-void OnServerMessage(string message, string playerName, string color, ulong playerId)
+void OnServerMessage(string message, string prefix, string color, ulong steamId)
 {
-    Puts($"{playerName} ({playerId}) was sent message: {message}");
+    Puts($"{prefix}: {message}");
 }
 ```

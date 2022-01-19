@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 ## Usage
 
-* Called before a new savefile is created (usually when map has wiped)
+* Called before a new save file is created (usually when map has wiped)
 * No return handling
 
 ## Examples

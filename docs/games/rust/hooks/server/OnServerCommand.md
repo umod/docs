@@ -11,13 +11,13 @@ hide_table_of_contents: true
 
 ## Examples
 
-```csharp title="Game-specific, command blocked and logged, with player check"
+```csharp title="Block and log command usage"
 object OnServerCommand(ConsoleSystem.Arg arg)
 {
     if (arg.cmd.Name.Equals("quit", StringComparison.OrdinalIgnoreCase))
     {
         BasePlayer player = arg.Connection?.player as BasePlayer;
-        Puts($"{(player == null ? "Server" : $"{player.displayName} ({player.userID})")} ran command: {arg.cmd.FullName} {arg.FullString}");
+        Puts($"Blocked server command{(player != null ? $" from {player.displayName} ({player.userID})" : string.Empty)}: {arg.cmd.FullName} {arg.FullString}");
         return false;
     }
 
@@ -25,12 +25,10 @@ object OnServerCommand(ConsoleSystem.Arg arg)
 }
 ```
 
-```csharp title="Game-specific, command logged, with player check"
-object OnServerCommand(ConsoleSystem.Arg arg)
+```csharp title="Allow and log command usage"
+void OnServerCommand(ConsoleSystem.Arg arg)
 {
     BasePlayer player = arg.Connection?.player as BasePlayer;
-    Puts($"{(player == null ? "Server" : $"{player.displayName} ({player.userID})")} ran command: {arg.cmd.FullName} {arg.FullString}");
-
-    return null;
+    Puts($"Executed server command{(player != null ? $" from {player.displayName} ({player.userID})" : string.Empty)}: {arg.cmd.FullName} {arg.FullString}");
 }
 ```
