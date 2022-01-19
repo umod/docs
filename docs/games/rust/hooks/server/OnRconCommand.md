@@ -12,11 +12,11 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title="Block and log command usage"
-void OnRconCommand(IPAddress remoteIp, string command, string[] args)
+void OnRconCommand(IPAddress ipAddress, string command, string[] args)
 {
     if (command.Equals("quit", StringComparison.OrdinalIgnoreCase))
     {
-        Puts($"Blocked RCON command from {remoteIp}: {command} {(args != null ? string.Join(" ", args) : "")}");
+        Puts($"Blocked RCON command from {ipAddress}: {command} {(args != null ? string.Join(" ", args) : "")}");
         return false;
     }
 
@@ -25,8 +25,8 @@ void OnRconCommand(IPAddress remoteIp, string command, string[] args)
 ```
 
 ```csharp title="Allow and log command usage"
-void OnRconCommand(IPAddress remoteIp, string command, string[] args)
+void OnRconCommand(IPAddress ipAddress, string command, string[] args)
 {
-    Puts($"Executed RCON command from {remoteIp}: {command} {(args != null ? string.Join(" ", args) : "")}");
+    Puts($"Executed RCON command from {ipAddress}: {command} {(args != null ? string.Join(" ", args) : "")}");
 }
 ```

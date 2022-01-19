@@ -2,18 +2,18 @@
 hide_table_of_contents: true
 ---
 
-# OnFrame
+# OnTick
 
 ## Usage
 
-* Called each frame (frequent, so use sparingly)
+* Called each tick (defined by the tick rate of the server)
 * For better performance, avoid using heavy calculations in this hook
 * No return handling
 
 ## Examples
 
 ```csharp
-void OnFrame()
+void OnTick()
 {
     // Do lightweight stuff
 }
