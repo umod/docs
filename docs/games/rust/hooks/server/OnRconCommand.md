@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title="Block and log command usage"
-void OnRconCommand(IPAddress ipAddress, string command, string[] args)
+object OnRconCommand(IPAddress ipAddress, string command, string[] args)
 {
     if (command.Equals("quit", StringComparison.OrdinalIgnoreCase))
     {

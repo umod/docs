@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before a save file and its entities are loaded
-* Return true to override save load handling
+* Return true to override save load handling, return false to prevent save loading
 
 ## Examples
 
@@ -19,7 +19,7 @@ void OnSaveLoad(Dictionary<BaseEntity, ProtoBuf.Entity> entities)
 ```
 
 ```csharp title="Prevent entities from being wiped"
-bool OnSaveLoad(Dictionary<BaseEntity, ProtoBuf.Entity> entities)
+object OnSaveLoad(Dictionary<BaseEntity, ProtoBuf.Entity> entities)
 {
     string saveFileName = string.Concat(World.SaveFolderName, "/", World.SaveFileName);
     if (SaveRestore.Load(saveFileName, allowOutOfDateSaves))
@@ -32,6 +32,6 @@ bool OnSaveLoad(Dictionary<BaseEntity, ProtoBuf.Entity> entities)
         return true;
     }
 
-    return false;
+    return null;
 }
 ```

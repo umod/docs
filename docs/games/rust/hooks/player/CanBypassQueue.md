@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before the player is added to the connection queue
-* Return true to bypass the queue, return nothing will by default queue the player
+* Return true to bypass the queue, return null to queue the player
 
 ## Examples
 

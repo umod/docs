@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title="Block and log connection attempt"
-void OnRconConnection(IPAddress ipAddress)
+object OnRconConnection(IPAddress ipAddress)
 {
     if (remoteIp.Equals("127.0.0.1", StringComparison.OrdinalIgnoreCase))
     {
