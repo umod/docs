@@ -11,7 +11,7 @@ hide_table_of_contents: true
 
 ## Examples
 
-```csharp title="Block code change for non-admin"
+```csharp title="Prevent code change for non-admin"
 object CanChangeCode(BasePlayer player, CodeLock codeLock, string newCode, bool isGuestCode)
 {
     if (!player.IsAdmin)

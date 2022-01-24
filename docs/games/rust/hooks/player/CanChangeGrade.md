@@ -11,7 +11,7 @@ hide_table_of_contents: true
 
 ## Examples
 
-```csharp title="Block grade change to Top Tier"
+```csharp title="Prevent grade change/upgrade to Top Tier"
 object CanChangeGrade(BasePlayer player, BuildingBlock block, BuildingGrade.Enum grade)
 {
     if (grade == BuildingGrade.Enum.TopTier)
