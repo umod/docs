@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after any plugin has been unloaded (not to be confused with Unload)
-* No return handling
+* No return behavior
 
 ## Examples
 

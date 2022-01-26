@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a group rank has been set or updated
-* No return handling
+* No return behavior
 
 ## Examples
 

@@ -9,7 +9,7 @@ hide_table_of_contents: true
 * Called after the server startup has been completed and is ready connections
 * Also called for plugins that are hotloaded while the server is already running
 * Boolean parameter, false if called on plugin hotload and true if called on server initialization
-* No return handling
+* No return behavior
 
 ## Examples
 

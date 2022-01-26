@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a group has been created successfully
-* No return handling
+* No return behavior
 
 ## Examples
 

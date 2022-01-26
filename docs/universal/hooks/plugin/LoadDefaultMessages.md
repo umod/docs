@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the localization for a plugin should be registered
-* No return handling
+* No return behavior
 
 ## Examples
 

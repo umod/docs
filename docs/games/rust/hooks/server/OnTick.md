@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Called each tick (defined by the tick rate of the server)
 * For better performance, avoid using heavy calculations in this hook
-* No return handling
+* No return behavior
 
 ## Examples
 

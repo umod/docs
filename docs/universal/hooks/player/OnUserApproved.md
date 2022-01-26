@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player is approved to connect to the server
-* No return handling
+* No return behavior
 
 ## Examples
 

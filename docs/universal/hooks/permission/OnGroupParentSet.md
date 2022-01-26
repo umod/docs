@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a group parent has been set or updated
-* No return handling
+* No return behavior
 
 ## Examples
 

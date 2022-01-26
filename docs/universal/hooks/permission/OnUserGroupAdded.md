@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player has been added to a group
-* No return handling
+* No return behavior
 
 ## Examples
 

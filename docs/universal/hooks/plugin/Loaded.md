@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Called when a plugin has finished loading
 * Other plugins may or may not be present, dependant on load order
-* No return handling
+* No return behavior
 
 ## Examples
 

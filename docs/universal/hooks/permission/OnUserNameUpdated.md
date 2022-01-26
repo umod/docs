@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player's stored name has been updated
-* No return handling
+* No return behavior
 
 ## Examples
 

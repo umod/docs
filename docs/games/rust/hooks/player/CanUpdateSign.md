@@ -1,0 +1,28 @@
+---
+hide_table_of_contents: true
+---
+
+# CanUpdateSign
+
+## Usage
+
+* Called when the player attempts to change the text on a sign or lock it, or update a photo frame
+* Returning true or false overrides default behavior
+
+## Examples
+
+```csharp title=""
+bool CanUpdateSign(BasePlayer player, Signage sign)
+{
+    Puts("CanUpdateSign works!");
+    return true;
+}
+```
+
+```csharp title=""
+bool CanUpdateSign(BasePlayer player, PhotoFrame photoFrame)
+{
+    Puts("CanUpdateSign works!");
+    return true;
+}
+```

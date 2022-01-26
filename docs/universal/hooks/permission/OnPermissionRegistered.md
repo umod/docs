@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a permission has been registered by a plugin
-* No return handling
+* No return behavior
 
 ## Examples
 

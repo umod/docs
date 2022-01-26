@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before the server performs a save
-* No return handling
+* No return behavior
 
 ## Examples
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player has been banned from the server
-* No return handling
+* No return behavior
 
 ## Examples
 
