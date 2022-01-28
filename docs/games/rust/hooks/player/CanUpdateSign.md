@@ -12,17 +12,25 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-bool CanUpdateSign(BasePlayer player, Signage sign)
+bool? CanUpdateSign(BasePlayer player, CarvablePumpkin pumpkin)
 {
     Puts("CanUpdateSign works!");
-    return true;
+    return null;
 }
 ```
 
 ```csharp title=""
-bool CanUpdateSign(BasePlayer player, PhotoFrame photoFrame)
+bool? CanUpdateSign(BasePlayer player, Signage sign)
 {
     Puts("CanUpdateSign works!");
-    return true;
+    return null;
+}
+```
+
+```csharp title=""
+bool? CanUpdateSign(BasePlayer player, PhotoFrame photoFrame)
+{
+    Puts("CanUpdateSign works!");
+    return null;
 }
 ```

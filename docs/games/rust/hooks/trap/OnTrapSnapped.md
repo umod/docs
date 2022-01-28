@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a trap is triggered by a game object
-* No Return behavior
+* No return behavior
 
 ## Examples
 

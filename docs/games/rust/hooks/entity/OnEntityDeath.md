@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * HitInfo might be null, check it before use
 * Editing hitInfo has no effect because the death has already happened
-* No Return behavior
+* No return behavior
 
 ## Examples
 

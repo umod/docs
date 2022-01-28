@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a loot container has dropped bonus scrap for a player who has a corresponding tea buff
-* No Return behavior
+* No return behavior
 
 ## Examples
 

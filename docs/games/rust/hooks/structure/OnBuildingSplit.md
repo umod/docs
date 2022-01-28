@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a building is split into two
-* No Return behavior
+* No return behavior
 
 ## Examples
 
 ```csharp title=""
-void OnBuildingSplit(BuildingBlock block, uint newBuildingId)
+void OnBuildingSplit(BuildingManager.Building building, uint newBuildingId)
 {
     Puts("OnBuildingSplit works!");
 }

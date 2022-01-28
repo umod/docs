@@ -7,8 +7,8 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player tries to change the frequency of an RF broadcaster or receiver
-* Returning a non-null value overrides default behavior
 * Useful for preventing particular reserved frequencies from being selected
+* Returning a non-null value overrides default behavior
 
 ## Examples
 

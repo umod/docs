@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right before a player begins to research an item
-* No Return behavior
+* No return behavior
 
 ## Examples
 

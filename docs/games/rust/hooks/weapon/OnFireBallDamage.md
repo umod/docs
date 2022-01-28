@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a fire ball does damage to another entity
-* No Return behavior
+* No return behavior
 
 ## Examples
 

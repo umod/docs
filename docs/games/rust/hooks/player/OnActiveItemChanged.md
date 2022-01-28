@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when active item was changed
-* No Return behavior
+* No return behavior
 
 ## Examples
 

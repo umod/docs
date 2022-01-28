@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnEntitySnapshot(BaseNetworkable entity, Connection connection)
+object OnEntitySnapshot(BaseNetworkable entity, Network.Connection connection)
 {
     Puts("OnEntitySnapshot works!");
     return null;

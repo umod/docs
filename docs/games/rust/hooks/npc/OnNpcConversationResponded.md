@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after a player's chosen NPC conversation response has been processed
-* No Return behavior
+* No return behavior
 
 ## Examples
 

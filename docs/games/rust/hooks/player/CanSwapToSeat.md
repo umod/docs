@@ -18,3 +18,11 @@ bool CanSwapToSeat(BasePlayer player, BaseMountable mountable)
     return true;
 }
 ```
+
+```csharp title=""
+bool CanSwapToSeat(BasePlayer player, ModularCarSeat catSeat)
+{
+    Puts("CanSwapToSeat works!");
+    return true;
+}
+```

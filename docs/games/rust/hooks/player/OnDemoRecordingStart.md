@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnDemoRecordingStart(string filename, BasePlayer player)
+object OnDemoRecordingStart(string fileName, BasePlayer player)
 {
     Puts("OnDemoRecordingStart works!");
     return null;

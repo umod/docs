@@ -6,8 +6,8 @@ hide_table_of_contents: true
 
 ## Usage
 
-* Called when the player stops looting an entity
-* No Return behavior
+* Called when the player stops looting a ContainerIOEntity, DroppedItemContainer, FuseBox, ItemBasedFlowRestrictor, LootableCorpse, or StorageContainer
+* No return behavior
 
 ## Examples
 

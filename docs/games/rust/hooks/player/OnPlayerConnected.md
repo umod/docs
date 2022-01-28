@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after the player object is created, but before the player has spawned
-* No Return behavior
+* No return behavior
 
 ## Examples
 

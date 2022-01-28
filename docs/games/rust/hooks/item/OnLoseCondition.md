@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right before the condition of the item is modified
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a custom UI is destroyed for the player
-* No Return behavior
+* No return behavior
 
 ## Examples
 

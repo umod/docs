@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after a phone was automatically hung up because the receiver phone wasn't answered in time
-* No Return behavior
+* No return behavior
 
 ## Examples
 

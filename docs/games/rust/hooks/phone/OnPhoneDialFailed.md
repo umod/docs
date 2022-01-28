@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a phone call has ended or failed to start
-* No Return behavior
+* No return behavior
 
 ## Examples
 

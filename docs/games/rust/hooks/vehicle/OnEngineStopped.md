@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after a vehicle engine has stopped
-* No Return behavior
+* No return behavior
 
 ## Examples
 

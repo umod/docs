@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the team was disbanded
-* No Return behavior
+* No return behavior
 
 ## Examples
 

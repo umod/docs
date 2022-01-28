@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a demo of a player has started recording
-* No Return behavior
+* No return behavior
 
 ## Examples
 
 ```csharp title=""
-void OnDemoRecordingStarted(string filename, BasePlayer player)
+void OnDemoRecordingStarted(string fileName, BasePlayer player)
 {
     Puts("OnDemoRecordingStarted works!");
 }

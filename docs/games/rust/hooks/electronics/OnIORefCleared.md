@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a wire has been disconnected from an electrical entity, such as when its connected entity was destroyed or when a player removed the wire
-* No Return behavior
+* No return behavior
 
 ## Examples
 

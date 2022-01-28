@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnInventoryNetworkUpdate(PlayerInventory inventory, ItemContainer container, ProtoBuf.UpdateItemContainer updateItemContainer, PlayerInventory.Type type, bool broadcast)
+object OnInventoryNetworkUpdate(PlayerInventory inventory, ItemContainer container, ProtoBuf.UpdateItemContainer updateItemContainer, PlayerInventory.Type inventoryType, bool broadcast)
 {
     Puts("OnInventoryNetworkUpdate works!");
     return null;

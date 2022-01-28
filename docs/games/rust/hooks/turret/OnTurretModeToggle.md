@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the mode of an autoturrent is toggled
-* No Return behavior
+* No return behavior
 
 ## Examples
 

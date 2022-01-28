@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before items are gathered from a survey charge
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after a supply signal has called a cargo plane
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a NPC attempts to attack another entity
-* Returning true or false overrides default behavior
+* Returning a non-null value overrides default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanNpcAttack(BaseNpc npc, BaseEntity target)
+object OnNpcAttack(BaseNpc npc, BaseEntity target)
 {
-    Puts("CanNpcAttack works!");
-    return true;
+    Puts("OnNpcAttack works!");
+    return null;
 }
 ```

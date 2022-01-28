@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after the stats of a modular car engine are refreshed
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the stock on a vending machine is updated
-* No Return behavior
+* No return behavior
 
 ## Examples
 

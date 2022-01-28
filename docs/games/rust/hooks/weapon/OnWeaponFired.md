@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player fires a weapon
-* No Return behavior
+* No return behavior
 
 ## Examples
 

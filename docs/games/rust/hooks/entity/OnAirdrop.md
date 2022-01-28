@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when an airdrop has been called
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a resource deposit has been created
-* No Return behavior
+* No return behavior
 
 ## Examples
 

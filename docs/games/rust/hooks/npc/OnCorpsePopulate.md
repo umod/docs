@@ -18,3 +18,11 @@ BaseCorpse OnCorpsePopulate(BasePlayer npcPlayer, BaseCorpse corpse)
     return null;
 }
 ```
+
+```csharp title=""
+BaseCorpse OnCorpsePopulate(Scientist npcPlayer, BaseCorpse corpse)
+{
+    Puts("OnCorpsePopulate works!");
+    return null;
+}
+```

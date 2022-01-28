@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 ## Usage
 
-* Called when a player tries to start a vehicle engine
+* Called when a player tries to start a vehicle engine (MiniCopter, ModularCar, or MotorRowboat)
 * Returning a non-null value overrides default behavior
 
 ## Examples

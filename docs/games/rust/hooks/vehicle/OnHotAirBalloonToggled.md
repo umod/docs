@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after a player has toggled a hot air balloon on or off
-* No Return behavior
+* No return behavior
 
 ## Examples
 

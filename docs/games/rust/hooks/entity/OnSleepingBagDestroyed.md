@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player removes a sleeping bag from their respawn screen
-* No Return behavior
+* No return behavior
 
 ## Examples
 

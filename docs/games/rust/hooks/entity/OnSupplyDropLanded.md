@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after Supply Drop has landed
-* No Return behavior
+* No return behavior
 
 ## Examples
 

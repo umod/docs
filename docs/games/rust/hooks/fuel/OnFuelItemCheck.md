@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnFuelItemCheck(EntityFuelSystem fuelSystem, StorageContainer fuelContainer)
+Item? OnFuelItemCheck(EntityFuelSystem fuelSystem, StorageContainer fuelContainer)
 {
     Puts("OnFuelItemCheck works!");
     return null;

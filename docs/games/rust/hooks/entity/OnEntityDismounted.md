@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when an entity is dismounted by a player
-* No Return behavior
+* No return behavior
 
 ## Examples
 

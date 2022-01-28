@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when trying to remove a marker
-* Returning a non-null value cancels default behaviour
+* Returning a non-null value cancels default behavior
 
 ## Examples
 

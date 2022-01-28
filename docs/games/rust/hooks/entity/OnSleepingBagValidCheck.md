@@ -13,7 +13,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-bool? OnSleepingBagValidCheck(SleepingBag bag, ulong targetPlayerID, bool ignoreTimers)
+bool? OnSleepingBagValidCheck(SleepingBag sleepingBag, ulong targetPlayerId, bool ignoreTimers)
 {
     Puts("OnSleepingBagValidCheck works!");
     return null;

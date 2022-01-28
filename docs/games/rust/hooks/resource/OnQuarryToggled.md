@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a quarry has just been toggled
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -13,7 +13,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnClientCommand(Connection connection, string command)
+object OnClientCommand(Network.Connection connection, string command)
 {
     Puts("OnClientCommand works!");
     return null;

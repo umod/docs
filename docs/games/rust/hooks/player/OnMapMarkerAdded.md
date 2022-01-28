@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a marker was added
-* No Return behavior
+* No return behavior
 
 ## Examples
 

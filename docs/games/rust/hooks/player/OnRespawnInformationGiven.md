@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player is about to be sent respawn information
-* No Return behavior
+* No return behavior
 
 ## Examples
 

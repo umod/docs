@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a locked crate from the CH47 (Chinook) has landed
-* No Return behavior
+* No return behavior
 
 ## Examples
 

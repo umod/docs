@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnResearchCostDetermine(Item item, ResearchTable researchTable)
+int? OnResearchCostDetermine(Item item, ResearchTable researchTable)
 {
     Puts("OnResearchCostDetermine works!");
     return null;
@@ -20,7 +20,7 @@ object OnResearchCostDetermine(Item item, ResearchTable researchTable)
 ```
 
 ```csharp title=""
-object OnResearchCostDetermine(ItemDefinition itemDefinition)
+int? OnResearchCostDetermine(ItemDefinition itemDefinition)
 {
     Puts("OnResearchCostDetermine works!");
     return null;

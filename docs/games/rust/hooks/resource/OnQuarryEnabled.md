@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a mining quarry is turned on/enabled
-* No Return behavior
+* No return behavior
 
 ## Examples
 

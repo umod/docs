@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player reveals a hidden stash
-* No Return behavior
+* No return behavior
 
 ## Examples
 

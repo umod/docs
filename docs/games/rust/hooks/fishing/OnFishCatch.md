@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a fish is caught, before the item is given
-* Returning a non-null value overrides default behavior
+* Returning an Item overrides the default behavior
 
 ## Examples
 
 ```csharp title=""
-Item OnFishCatch(Item item, BaseFishingRod rod, BasePlayer player)
+Item? OnFishCatch(Item fish, BaseFishingRod fishingRod, BasePlayer player)
 {
     Puts($"{player.displayName} has just caught {item.amount} x {item.info.shortname}!");
     return null;

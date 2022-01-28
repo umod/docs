@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before a non-player controlled vending machine (at outpost etc.) gives the player the item they purchased.
-* Returning a non-null value overrides default behaviour.
+* Returning a non-null value overrides default behavior
 
 ## Examples
 

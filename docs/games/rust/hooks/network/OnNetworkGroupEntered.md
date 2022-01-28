@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player has entered a network group
-* No Return behavior
+* No return behavior
 
 ## Examples
 

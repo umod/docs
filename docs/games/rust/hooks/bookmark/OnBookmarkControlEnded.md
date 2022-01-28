@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player has stopped viewing/controlling an entity at a computer station
-* No Return behavior
+* No return behavior
 
 ## Examples
 

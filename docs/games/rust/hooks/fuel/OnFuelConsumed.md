@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after fuel is used (furnace, lanterns, camp fires, etc.)
-* No Return behavior
+* No return behavior
 
 ## Examples
 

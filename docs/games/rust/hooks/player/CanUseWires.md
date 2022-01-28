@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Useful for allowing or preventing a player from using wires
-* Returning a non-null value overrides default behavior
+* Return true/false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-object CanUseWires(BasePlayer player)
+bool? CanUseWires(BasePlayer player)
 {
     Puts($"{player.displayName} has just tried to use wires");
     return null;

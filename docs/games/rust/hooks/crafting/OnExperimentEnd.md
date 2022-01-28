@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when an experiment is about to end
-* Returning a non-null value overrides defualt behaviour.
+* Returning a non-null value overrides defualt behavior
 
 ## Examples
 

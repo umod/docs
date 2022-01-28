@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before multiplier is applied.
-* Returning non-null value overrides default behaviour.
+* Returning non-null value overrides default behavior
 
 ## Examples
 
 ```csharp title=""
-object OnBigWheelWin(BigWheelGame bigWheel, Item scrap, int multiplier)
+object OnBigWheelWin(BigWheelGame bigWheel, Item scrap, BigWheelBettingTerminal terminal, int multiplier)
 {
     Puts("OnBigWheelWin works!");
     return null;

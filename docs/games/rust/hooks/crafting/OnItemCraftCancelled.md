@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before an item has been crafted
-* No Return behavior
+* No return behavior
 
 ## Examples
 

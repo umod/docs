@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after the player has locked a sign or photo frame
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnWireClear(BasePlayer player, IOEntity entity1, int connected, IOEntity entity2, bool flag)
+object OnWireClear(BasePlayer player, IOEntity entity1, int slot, IOEntity entity2, bool isInput)
 {
     Puts("OnWireClear works!");
     return null;

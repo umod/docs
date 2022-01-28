@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player drops an explosive item (C4, grenade, ...)
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnPhoneNameUpdate(PhoneController phoneController, string name, BasePlayer player)
+object OnPhoneNameUpdate(PhoneController phoneController, string newPhoneName, BasePlayer player)
 {
     Puts("OnPhoneNameUpdate works!");
     return null;

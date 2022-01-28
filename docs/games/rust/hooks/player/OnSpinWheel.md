@@ -7,13 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player spins a spinner wheel
-* No Return behavior
+* Returning a non-null value cancels default behavior
 
 ## Examples
 
 ```csharp title=""
-void OnSpinWheel(BasePlayer player, SpinnerWheel wheel)
+object OnSpinWheel(BasePlayer player, SpinnerWheel wheel)
 {
     Puts("OnSpinWheel works!");
+    return null;
 }
 ```

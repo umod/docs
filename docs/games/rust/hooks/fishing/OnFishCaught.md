@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a fish is caught
-* No Return behavior
+* No return behavior
 
 ## Examples
 
 ```csharp title=""
-void OnFishCaught(ItemDefinition definition, BaseFishingRod rod, BasePlayer player)
+void OnFishCaught(ItemDefinition fish, BaseFishingRod fishingRod, BasePlayer player)
 {
     Puts($"A fish ({definition.shortname}) has just been caught by {player.displayName}!");
 }

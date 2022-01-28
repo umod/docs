@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnWireConnect(BasePlayer player, IOEntity entity1, int inputs, IOEntity entity2, int outputs)
+object OnWireConnect(BasePlayer player, IOEntity input, int inputSlot, IOEntity output, int outputSlot)
 {
     Puts("OnWireConnect works!");
     return null;

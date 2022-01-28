@@ -21,7 +21,7 @@ object OnSendCommand(List<Connection> connections, string command, object[] args
 ```
 
 ```csharp title=""
-object OnSendCommand(Connection connection, string command, object[] args)
+object OnSendCommand(Network.Connection connection, string command, object[] args)
 {
     Puts("OnSendCommand works!");
     return null;

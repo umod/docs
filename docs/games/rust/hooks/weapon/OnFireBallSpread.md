@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a fire ball fire spreads
-* No Return behavior
+* No return behavior
 
 ## Examples
 

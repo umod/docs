@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after a player has answered a phone call
-* No Return behavior
+* No return behavior
 
 ## Examples
 

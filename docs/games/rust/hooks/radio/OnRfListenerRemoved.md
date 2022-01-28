@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after an object has stopped listening to an RF frequency
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player is giving server connection authorization information
-* No Return behavior
+* No return behavior
 
 ## Examples
 
 ```csharp title=""
-void OnClientAuth(Connection connection)
+void OnClientAuth(Network.Connection connection)
 {
     Puts("OnClientAuth works!");
 }

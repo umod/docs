@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player has updated a phone name
-* No Return behavior
+* No return behavior
 
 ## Examples
 
 ```csharp title=""
-void OnPhoneNameUpdated(PhoneController phoneController, string name, BasePlayer player)
+void OnPhoneNameUpdated(PhoneController phoneController, string newPhoneName, BasePlayer player)
 {
     Puts("OnPhoneNameUpdated works!");
 }

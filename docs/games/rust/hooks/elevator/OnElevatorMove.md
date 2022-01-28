@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnElevatorMove(Elevator topElevator, int targetFloor)
+object OnElevatorMove(Elevator elevator, int targetFloor)
 {
     Puts("OnElevatorMove works!");
     return null;

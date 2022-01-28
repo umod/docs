@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before engine loadout data is refreshed
-* Returning a non-null value overrides default behaviour
+* Returning a non-null value overrides default behavior
 
 ## Examples
 

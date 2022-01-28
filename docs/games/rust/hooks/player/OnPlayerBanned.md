@@ -7,12 +7,19 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player is banned (Facepunch, EAC, server ban, etc.)
-* No Return behavior
+* No return behavior
 
 ## Examples
 
 ```csharp title=""
-void OnPlayerBanned(string name, ulong id, string address, string reason)
+void OnPlayerBanned(string playerName, ulong playerId, string playerIp, string reason, long expiry)
+{
+    Puts("OnPlayerBanned works!");
+}
+```
+
+```csharp title=""
+void OnPlayerBanned(Network.Connection connection, string reason)
 {
     Puts("OnPlayerBanned works!");
 }

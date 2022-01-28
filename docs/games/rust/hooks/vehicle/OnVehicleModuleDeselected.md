@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after a player deselects a vehicle module item in a car's inventory
-* No Return behavior
+* No return behavior
 
 ## Examples
 

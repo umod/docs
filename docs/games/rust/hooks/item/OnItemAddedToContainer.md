@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Called right after an item was added to a container
 * An entire stack has to be created, not just adding more wood to a wood stack for example
-* No Return behavior
+* No return behavior
 
 ## Examples
 

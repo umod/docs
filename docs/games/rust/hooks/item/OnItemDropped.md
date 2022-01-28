@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after an item has been dropped
-* No Return behavior
+* No return behavior
 
 ## Examples
 

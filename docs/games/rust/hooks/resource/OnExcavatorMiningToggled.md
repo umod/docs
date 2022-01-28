@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when excavator mining arm is toggled
-* No Return behavior
+* No return behavior
 
 ## Examples
 

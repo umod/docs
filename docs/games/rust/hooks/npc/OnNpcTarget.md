@@ -18,3 +18,11 @@ object OnNpcTarget(BaseEntity npc, BaseEntity entity)
     return null;
 }
 ```
+
+```csharp title=""
+object OnNpcTarget(HumanNPC npc, BaseEntity entity)
+{
+    Puts("OnNpcTarget works!");
+    return null;
+}
+```

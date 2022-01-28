@@ -8,8 +8,8 @@ hide_table_of_contents: true
 
 * Called when the player has respawned (specifically when they click the "Respawn" button)
 * ONLY called after the player has transitioned from dead to not-dead, so not when they're waking up
-* This means it's possible for the player to connect and disconnect from a server without OnPlayerRespawned ever triggering for them
-* No Return behavior
+* This means it is possible for the player to connect and disconnect from a server without OnPlayerRespawned ever triggering for them
+* No return behavior
 
 ## Examples
 

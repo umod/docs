@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player has changed the frequency of an RF broadcaster or receiver
-* No Return behavior
+* No return behavior
 
 ## Examples
 

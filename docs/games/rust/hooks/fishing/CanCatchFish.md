@@ -12,9 +12,9 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-bool? CanCatchFish(BasePlayer player, BaseFishingRod rod, Item item)
+bool? CanCatchFish(BasePlayer player, BaseFishingRod fishingRod, Item fish)
 {
-    Puts("can we catch em fishes?");
+    Puts("Can we catch em fishes?");
     return null;
 }
 ```

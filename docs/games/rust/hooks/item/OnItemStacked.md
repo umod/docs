@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after an item has been stacked
-* No Return behavior
+* No return behavior
 
 ## Examples
 

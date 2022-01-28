@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Called when player updates map item's image
 * Useful for executing any action when map image is updated
-* No Return behavior
+* No return behavior
 
 ## Examples
 

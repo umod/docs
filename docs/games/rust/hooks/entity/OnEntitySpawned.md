@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after any networked entity has spawned (including trees)
-* No Return behavior
+* No return behavior
 
 ## Examples
 

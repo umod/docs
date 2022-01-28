@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after the experiment has finished
-* No Return behaviour
+* No return behavior
 
 ## Examples
 

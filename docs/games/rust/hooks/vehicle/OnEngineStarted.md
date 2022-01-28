@@ -6,8 +6,8 @@ hide_table_of_contents: true
 
 ## Usage
 
-* Called right after a vehicle engine has started
-* No Return behavior
+* Called right after a vehicle engine has started (MiniCopter, ModularCar, or MotorRowboat)
+* No return behavior
 
 ## Examples
 

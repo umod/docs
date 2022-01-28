@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after a player switches an ElectricSwitch or FuelGenerator
-* No Return behavior
+* No return behavior
 
 ## Examples
 

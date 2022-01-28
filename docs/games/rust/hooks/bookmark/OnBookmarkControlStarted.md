@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player has selected a bookmark at a computer station
-* No Return behavior
+* No return behavior
 
 ## Examples
 

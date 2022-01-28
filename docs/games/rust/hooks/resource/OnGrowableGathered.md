@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before the player receives an item from gathering a growable entity
-* No Return behavior
+* No return behavior
 
 ## Examples
 

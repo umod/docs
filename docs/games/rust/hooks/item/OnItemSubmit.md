@@ -12,6 +12,14 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
+object OnItemSubmit(Item item, Dropbox dropbox, BasePlayer player)
+{
+    Puts("OnItemSubmit works!");
+    return null;
+}
+```
+
+```csharp title=""
 object OnItemSubmit(Item item, Mailbox mailbox, BasePlayer player)
 {
     Puts("OnItemSubmit works!");

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after the player has disconnected from the server
-* No Return behavior
+* No return behavior
 
 ## Examples
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after a player has selected a vehicle module item in a car's inventory, and after they have been shown the corresponding storage container if applicable
-* No Return behavior
+* No return behavior
 
 ## Examples
 

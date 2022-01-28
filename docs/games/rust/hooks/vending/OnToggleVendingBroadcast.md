@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player toggles the broadcasting of the vending machine
-* No Return behavior
+* No return behavior
 
 ## Examples
 

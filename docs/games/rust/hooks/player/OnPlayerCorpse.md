@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a non-null corpse has just been spawned
-* No Return behavior
+* No return behavior
 
 ## Examples
 

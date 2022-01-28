@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right before an item is upgraded
-* No Return behavior
+* No return behavior
 
 ## Examples
 

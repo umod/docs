@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a sell order/offer is added to a vending machine
-* No Return behavior
+* No return behavior
 
 ## Examples
 

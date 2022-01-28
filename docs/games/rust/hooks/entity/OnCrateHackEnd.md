@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player stops hacking a locked crate
-* No Return behavior
+* No return behavior
 
 ## Examples
 

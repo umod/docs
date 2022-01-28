@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Called right after an item was removed from a container
 * The entire stack has to be removed for this to be called, not just a little bit
-* No Return behavior
+* No return behavior
 
 ## Examples
 
