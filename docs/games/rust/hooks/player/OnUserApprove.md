@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Used by RustCore and abstracted into CanClientLogin
-* Returning a non-null value overrides default behavior, plugin should call Reject if it does this
+* Return a non-null value to override default behavior, plugin should call Reject if it does this
 
 ## Examples
 

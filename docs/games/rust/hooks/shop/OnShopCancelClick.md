@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player is cancelling a trade
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 
 ```csharp title=""
-object OnShopCancelClick(ShopFront entity, BasePlayer player)
+object OnShopCancelClick(ShopFront shop, BasePlayer player)
 {
     Puts("OnShopCancelClick works!");
     return null;

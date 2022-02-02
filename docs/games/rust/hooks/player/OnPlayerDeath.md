@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Called when the player is about to die
 HitInfo may be null sometimes
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Called before the recover after reviving with a medical tool
 * Useful for canceling the reviving
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

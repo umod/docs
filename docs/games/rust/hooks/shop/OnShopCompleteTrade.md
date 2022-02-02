@@ -7,20 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before the trade is completed in ShopFront
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 
 ```csharp title=""
-object OnShopCompleteTrade(ShopFront entity)
-{
-    Puts("OnShopCompleteTrade works!");
-    return null;
-}
-```
-
-```csharp title=""
-object OnShopCompleteTrade(ShopFront shop, BasePlayer customer)
+object OnShopCompleteTrade(ShopFront shop, BasePlayer customer, BasePlayer vendor)
 {
     Puts("OnShopCompleteTrade works!");
     return null;

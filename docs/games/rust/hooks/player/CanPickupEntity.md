@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player attempts to pickup a deployed entity (AutoTurret, BaseMountable, BearTrap, DecorDeployable, Door, DoorCloser, ReactiveTarget, SamSite, SleepingBag, SpinnerWheel, StorageContainer, etc.)
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanPickupEntity(BasePlayer player, BaseEntity entity)
+bool? CanPickupEntity(BasePlayer player, BaseEntity entity)
 {
     Puts("CanPickupEntity works!");
-    return true;
+    return null;
 }
 ```

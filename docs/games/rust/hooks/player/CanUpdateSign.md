@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player attempts to change the text on a sign or lock it, or update a photo frame
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when stability of an entity is checked
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

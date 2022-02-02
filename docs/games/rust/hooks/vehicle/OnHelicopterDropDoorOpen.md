@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a CH47 helicopter is opening its drop door
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

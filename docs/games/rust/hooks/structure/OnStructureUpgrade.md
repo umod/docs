@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player upgrades the grade of a BuildingBlock or BaseCombatEntity
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

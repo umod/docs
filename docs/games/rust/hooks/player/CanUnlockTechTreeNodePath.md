@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player is attempting to unlock a blueprint in a tech tree, after the CanUnlockTechTreeNode hook, when determining whether they have the prerequisite blueprints unlocked
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 * Useful for customizing prerequisites without conflicting with the CanPlayerUnlock hook
 
 ## Examples

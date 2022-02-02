@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a patrol helicopter attempts to target a player to attack while strafing
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanHelicopterStrafeTarget(PatrolHelicopterAI entity, BasePlayer target)
+bool? CanHelicopterStrafeTarget(PatrolHelicopterAI entity, BasePlayer target)
 {
     Puts("CanHelicopterStrafeTarget works!");
-    return true;
+    return null;
 }
 ```

@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player attempts to administer a vending machine
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanVendingAcceptItem(VendingMachine vending, Item item, int targetPos)
+bool? CanVendingAcceptItem(VendingMachine vending, Item item, int targetPos)
 {
     Puts("CanVendingAcceptItem works!");
-    return true;
+    return null;
 }
 ```

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player's inventory contents have changed, before it is sent over the network to one or more clients
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

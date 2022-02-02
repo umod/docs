@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player sends chat to the server
-* Returning a non-null value overrides default behavior of chat, not commands
+* Return a non-null value to override default behavior of chat, not commands
 
 ## Examples
 

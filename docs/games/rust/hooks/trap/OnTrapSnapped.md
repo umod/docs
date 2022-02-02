@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-void OnTrapSnapped(BaseTrapTrigger trap, GameObject go)
+void OnTrapSnapped(BaseTrapTrigger trap, GameObject gameObject, Collider collider)
 {
     Puts("OnTrapSnapped works!");
 }

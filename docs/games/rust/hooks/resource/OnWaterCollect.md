@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a WaterCatch or WaterPump is about to collect water
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

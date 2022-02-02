@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player attempts to loot another player
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanLootPlayer(BasePlayer target, BasePlayer looter)
+bool? CanLootPlayer(BasePlayer target, BasePlayer looter)
 {
     Puts("CanLootPlayer works!");
-    return true;
+    return null;
 }
 ```

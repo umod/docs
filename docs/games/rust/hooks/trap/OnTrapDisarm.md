@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player disarms a land mine
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 
 ```csharp title=""
-object OnTrapDisarm(Landmine trap, BasePlayer player)
+object OnTrapDisarm(Landmine landmine, BasePlayer player)
 {
     Puts("OnTrapDisarm works!");
     return null;

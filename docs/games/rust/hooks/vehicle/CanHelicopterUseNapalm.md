@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a patrol helicopter attempts to use napalm
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanHelicopterUseNapalm(PatrolHelicopterAI heli)
+bool? CanHelicopterUseNapalm(PatrolHelicopterAI heli)
 {
     Puts("CanHelicopterUseNapalm works!");
-    return true;
+    return null;
 }
 ```

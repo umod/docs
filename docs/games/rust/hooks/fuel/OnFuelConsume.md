@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right before fuel is used (furnace, lanterns, camp fires, etc.)
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

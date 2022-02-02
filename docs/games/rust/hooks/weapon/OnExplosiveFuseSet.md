@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a fuse of an explosive is set
-* Returning a non-null value overwrites fuse length
+* Return a non-null value to override fuse length
 
 ## Examples
 

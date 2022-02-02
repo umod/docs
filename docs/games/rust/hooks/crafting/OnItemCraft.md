@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right after an item is added to the crafting queue
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-object OnItemCraft(ItemCraftTask task, BasePlayer player, Item item)
+bool? OnItemCraft(ItemCraftTask task, BasePlayer player, Item item)
 {
     Puts("OnItemCraft works!");
     return null;

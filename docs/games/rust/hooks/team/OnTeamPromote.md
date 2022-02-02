@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Useful for canceling player's promotion in the team
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

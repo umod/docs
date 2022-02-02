@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a container is destroyed and all items are about to be dropped
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

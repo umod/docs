@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right before an item is repaired
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

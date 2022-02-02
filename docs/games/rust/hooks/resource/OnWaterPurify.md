@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when salt water is about to be converted to fresh water in a water purifier
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

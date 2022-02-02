@@ -8,14 +8,14 @@ hide_table_of_contents: true
 
 * Called when an entity attempts to network with a player
 For better performance, avoid using heavy calculations in this hook.
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanNetworkTo(BaseNetworkable entity, BasePlayer target)
+bool? CanNetworkTo(BaseNetworkable entity, BasePlayer target)
 {
     Puts("CanNetworkTo works!");
-    return true;
+    return null;
 }
 ```

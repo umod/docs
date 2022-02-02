@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Useful for modifying an attack before it goes out
 * hitInfo.HitEntity should be the entity that this attack would hit
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

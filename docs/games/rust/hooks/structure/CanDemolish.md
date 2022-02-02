@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player tries to demolish a building block
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanDemolish(BasePlayer player, BuildingBlock block, BuildingGrade.Enum grade)
+bool? CanDemolish(BasePlayer player, BuildingBlock block, BuildingGrade.Enum grade)
 {
     Puts("CanDemolish works!");
-    return true;
+    return null;
 }
 ```

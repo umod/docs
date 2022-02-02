@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when an item is dropped on another item
-* Returning a non-null value overwrites command arguments
+* Return a non-null value to override command arguments
 
 ## Examples
 

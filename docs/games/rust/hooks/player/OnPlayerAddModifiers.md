@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a player consumes an item such as tea that is about to apply modifiers
-* Returning a non-null value overrides default behavior (prevents the modifiers from being applied)
+* Return a non-null value to override default behavior (prevents the modifiers from being applied)
 
 ## Examples
 

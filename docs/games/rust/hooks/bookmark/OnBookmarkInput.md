@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when input is received from a player who is using a computer station with a bookmark selected
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

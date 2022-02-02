@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player attempts to equip an item
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanEquipItem(PlayerInventory inventory, Item item, int targetPos)
+bool? CanEquipItem(PlayerInventory inventory, Item item, int targetPos)
 {
     Puts("CanEquipItem works!");
-    return true;
+    return null;
 }
 ```

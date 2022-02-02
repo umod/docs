@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when an APC targets an entity
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanBradleyApcTarget(BradleyAPC apc, BaseEntity entity)
+bool? CanBradleyApcTarget(BradleyAPC apc, BaseEntity entity)
 {
     Puts("CanBradleyApcTarget works!");
-    return true;
+    return null;
 }
 ```

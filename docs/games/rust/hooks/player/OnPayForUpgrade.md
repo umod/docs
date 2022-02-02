@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when player is paying for an upgrade. Useful for preventing paying for block upgrade
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

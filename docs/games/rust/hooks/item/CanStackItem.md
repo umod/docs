@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when moving an item onto another item
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanStackItem(Item item, Item targetItem)
+bool? CanStackItem(Item item, Item targetItem)
 {
     Puts("CanStackItem works!");
-    return true;
+    return null;
 }
 ```

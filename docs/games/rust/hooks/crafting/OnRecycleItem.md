@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when an item is recycled in a recycler
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

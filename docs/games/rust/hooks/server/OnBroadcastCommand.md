@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called before a command is broadcasted to all connected clients
-* Returning a non-null value overwrites command arguments
+* Return a non-null value to override command arguments
 
 ## Examples
 

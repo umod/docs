@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a CH47 helicopter runs out of crates
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 

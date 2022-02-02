@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when an item is used
-* Returning an int overrides the amount consumed.
+* Returning an int overrides the amount consumed
 
 ## Examples
 

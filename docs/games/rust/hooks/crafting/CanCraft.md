@@ -7,22 +7,22 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player attempts to craft an item
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanCraft(ItemCrafter itemCrafter, ItemBlueprint bp, int amount)
+bool? CanCraft(ItemCrafter itemCrafter, ItemBlueprint itemBlueprint, int itemAmount, bool free)
 {
     Puts("CanCraft works!");
-    return true;
+    return null;
 }
 ```
 
 ```csharp title=""
-bool CanCraft(PlayerBlueprints playerBlueprints, ItemDefinition itemDefinition, int skinItemId)
+bool? CanCraft(PlayerBlueprints playerBlueprints, ItemDefinition itemDefinition, int skinItemId)
 {
     Puts("CanCraft works!");
-    return true;
+    return null;
 }
 ```

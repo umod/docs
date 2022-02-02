@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player tries to remote control BaseCombatEntity, IRemoteControllable, or AutoTurret
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool OnEntityControl(IRemoteControllable entity)
+bool? OnEntityControl(IRemoteControllable entity)
 {
     Puts("OnEntityControl works!");
-    return true;
+    return null;
 }
 ```

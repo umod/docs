@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player repairs a BuildingBlock or BaseCombatEntity
-* Returning a non-null value cancels repair
+* Return a non-null value to override repair
 
 ## Examples
 

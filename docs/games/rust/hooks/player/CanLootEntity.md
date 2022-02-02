@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player starts looting a BaseRidableAnimal, ContainerIOEntity, DroppedItemContainer, LootableCorpse, ResourceContainer, or StorageContainer
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called just before the player's health changes
-* Returning a non-null value cancels the health change
+* Return a non-null value to override the health change
 
 ## Examples
 

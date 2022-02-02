@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right before a player finishes researching an item
-* Returning a float will affect if researching is successful or not
+* Returning an int will affect if researching is successful or not
 
 ## Examples
 
 ```csharp title=""
-float OnItemResearched(ResearchTable table, float chance)
+int? OnItemResearched(ResearchTable table, int chance)
 {
     Puts("OnItemResearched works!");
-    return 1;
+    return null;
 }
 ```

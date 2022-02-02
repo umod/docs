@@ -7,12 +7,28 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a trap is triggered by a game object
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 
 ```csharp title=""
-object OnTrapTrigger(BaseTrap trap, GameObject go)
+object OnTrapTrigger(BaseTrap trap, GameObject gameObject)
+{
+    Puts("OnTrapTrigger works!");
+    return null;
+}
+```
+
+```csharp title=""
+object OnTrapTrigger(BearTrap trap, GameObject gameObject)
+{
+    Puts("OnTrapTrigger works!");
+    return null;
+}
+```
+
+```csharp title=""
+object OnTrapTrigger(Landmine landmine, GameObject gameObject)
 {
     Puts("OnTrapTrigger works!");
     return null;

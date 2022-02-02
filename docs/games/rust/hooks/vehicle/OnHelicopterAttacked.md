@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * DEPRECATED
 * Called when a CH47 helicopter is being attacked
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

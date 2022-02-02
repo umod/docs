@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Useful for preventing a wire to connect
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

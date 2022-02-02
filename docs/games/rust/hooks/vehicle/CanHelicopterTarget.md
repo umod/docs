@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a patrol helicopter attempts to target a player to attack
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanHelicopterTarget(PatrolHelicopterAI heli, BasePlayer player)
+bool? CanHelicopterTarget(PatrolHelicopterAI heli, BasePlayer player)
 {
     Puts("CanHelicopterTarget works!");
-    return true;
+    return null;
 }
 ```

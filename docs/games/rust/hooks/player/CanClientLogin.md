@@ -13,9 +13,9 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-bool CanClientLogin(Network.Connection connection)
+bool? CanClientLogin(Network.Connection connection)
 {
     Puts("CanClientLogin works!");
-    return true;
+    return null;
 }
 ```

@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the recycler attempts to recycle an item
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanRecycle(Recycler recycler, Item item)
+bool? CanRecycle(Recycler recycler, Item item)
 {
     Puts("CanRecycle works!");
-    return true;
+    return null;
 }
 ```

@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player stops spectating
-* Returning a non-null value stops the spectate from ending
+* Return a non-null value to stop the spectate from ending
 
 ## Examples
 

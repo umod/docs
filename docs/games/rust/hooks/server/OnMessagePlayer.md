@@ -17,7 +17,7 @@ object OnMessagePlayer(string message, BasePlayer player)
     if (message.Contains("gave"))
     {
         Puts($"Message to {player.displayName} ({player.userID}) cancelled");
-        returm false;
+        return false;
     }
 
     return null;

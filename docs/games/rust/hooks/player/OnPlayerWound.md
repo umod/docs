@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Called when the player is about to go down to the 'wounded' state
 source might be null, check it before use
-* Returning a non-null value cancels the wounded state
+* Return a non-null value to override the wounded state
 
 ## Examples
 

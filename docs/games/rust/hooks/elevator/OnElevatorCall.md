@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when an elevator lift is called to a specific floor by electricity
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

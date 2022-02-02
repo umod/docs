@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called after a phone has been answered, right before voice communication is established
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

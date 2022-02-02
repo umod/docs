@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player rotates a BuildingBlock or BaseCombatEntity
-* Returning a non-null value cancels rotate
+* Return a non-null value to override rotate
 
 ## Examples
 

@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when the player tries to use a mailbox
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanUseMailbox(BasePlayer player, Mailbox mailbox)
+bool? CanUseMailbox(BasePlayer player, Mailbox mailbox)
 {
     Puts("CanUseMailbox works!");
-    return true;
+    return null;
 }
 ```

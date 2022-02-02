@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Called when determining if a sleeping bag is a valid respawn location for a player
 * Useful in conjunction with OnRespawnInformationGiven since a custom sleeping bag will need to pass this check
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 

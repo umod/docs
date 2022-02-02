@@ -16,7 +16,7 @@ object OnServerMessage(string message, string prefix, string color, ulong steamI
 {
     if (message.Contains("gave"))
     {
-        returm false;
+        return false;
     }
 
     return null;

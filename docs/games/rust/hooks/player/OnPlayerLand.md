@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called just before the player lands on the ground
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

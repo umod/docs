@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a loot container is about to drop bonus scrap for a player who has a corresponding tea buff
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

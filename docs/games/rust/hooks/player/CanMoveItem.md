@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when moving an item from one inventory slot to another
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

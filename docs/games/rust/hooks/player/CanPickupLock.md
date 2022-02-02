@@ -7,14 +7,14 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player attempts to pickup a lock
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-bool CanPickupLock(BasePlayer player, BaseLock baseLock)
+bool? CanPickupLock(BasePlayer player, BaseLock baseLock)
 {
     Puts("CanPickupLock works!");
-    return true;
+    return null;
 }
 ```

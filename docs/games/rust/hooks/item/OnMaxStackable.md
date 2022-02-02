@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when an items max stackable is calculated
-* Returning a numeric value (int) overrides the default value
+* Return a numeric value (int) to override the default value
 
 ## Examples
 

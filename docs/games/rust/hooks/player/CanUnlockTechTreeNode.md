@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player is attempting to unlock a blueprint in a tech tree
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 * Useful for bypassing unlock requirements or disallowing particular blueprints from being unlocked
 
 ## Examples

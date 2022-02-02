@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when a player tries to loot a vehicle's fuel container
-* Returning true or false overrides default behavior
+* Return true or false to override default behavior
 
 ## Examples
 
 ```csharp title=""
-object CanCheckFuel(EntityFuelSystem fuelSystem, StorageContainer fuelContainer, BasePlayer player)
+bool? CanCheckFuel(EntityFuelSystem fuelSystem, StorageContainer fuelContainer, BasePlayer player)
 {
     Puts("CanCheckFuel works!");
     return null;

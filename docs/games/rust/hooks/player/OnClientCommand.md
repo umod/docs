@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 * Useful for intercepting players' commands before their handling
 * Called before OnPlayerCommand and OnUserCommand
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

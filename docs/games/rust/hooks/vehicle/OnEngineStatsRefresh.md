@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right before the stats of a modular car engine are refreshed
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 

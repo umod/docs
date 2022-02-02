@@ -7,12 +7,12 @@ hide_table_of_contents: true
 ## Usage
 
 * Called when outputs of IOEntity are updated
-* Returning a non-null value cancels default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 
 ```csharp title=""
-object OnOutputUpdate(IOEntity entity)
+object OnOutputUpdate(IOEntity ioEntity)
 {
     Puts("OnOutputUpdate works!");
     return null;

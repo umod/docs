@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ## Usage
 
 * Called right before an item such as a diving tank is repaired without using a repair bench
-* Returning a non-null value overrides default behavior
+* Return a non-null value to override default behavior
 
 ## Examples
 
