@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnPhotoCapture(PhotoEntity photo, Item item, BasePlayer player, byte[] photoData)
+object OnPhotoCapture(PhotoEntity photo, Item camera, BasePlayer player, byte[] photoData)
 {
     Puts("OnPhotoCapture works!");
     return null;
