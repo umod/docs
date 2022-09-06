@@ -12,7 +12,7 @@ hide_table_of_contents: true
 ## Examples
 
 ```csharp title=""
-object OnSamSiteTarget(SamSite entity, BaseCombatEntity target)
+object OnSamSiteTarget(SamSite samSite, BaseCombatEntity target)
 {
     Puts("OnSamSiteTarget works!");
     return null;
